@@ -1,0 +1,55 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.venv/
+env/
+ENV/
+
+# Jupyter checkpoints (if used)
+.ipynb_checkpoints/
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PDF files
+*.pdf
+
+# Logs and debug files
+*.log
+
+# Model/cache files (Hugging Face / Transformers / Torch)
+.cache/
+*.pt
+*.bin
+*.h5
+*.pth
+*.joblib
+*.pkl
+*.pickle
+
+# Tokenizer & model config
+tokenizer_config.json
+special_tokens_map.json
+*.vocab
+
+# Output artifacts
+outputs/
+checkpoints/
+runs/
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
